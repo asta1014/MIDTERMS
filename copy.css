@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/Img/2ndbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50%;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .image1{
+
+    background-image: url(/Img/agenda1.jpg);
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+
+
+img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.content:hover{
+    opacity: 1;
+}
+
+.content h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    margin: auto;
+    text-align: center;
+}
+
+.content p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    margin: 2px;
+}
+
+
+
+<div class="banner">
+<div class="navbar">
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="agenda.html">Agendas</a></li>
+        <li><a href="foods.html">Delicacies</a></li>
+        <li><a href="festival.html">Festival</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</div>
+</div>
